@@ -17,6 +17,9 @@ Gem::Specification.new do |s|
   s.require_paths = ['lib']
   s.version       = StandupBot::VERSION
 
-  s.add_development_dependency 'awesome_print'
+  s.add_dependency 'awesome_print'
   s.add_dependency 'hipchat'
+  s.add_dependency 'faraday'
+  s.add_dependency 'json'
+  s.add_dependency 'active_support'
 end

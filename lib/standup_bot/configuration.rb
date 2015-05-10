@@ -12,10 +12,11 @@ module StandupBot
 
   class Configuration
     # Structure from https://github.com/experteer/codeqa/blob/master/lib/codeqa/configuration.rb
-    attr_accessor :hipchat_token
+    attr_accessor :hipchat_token, :toggl_token
 
     def initialize
       self.hipchat_token = nil
+      self.toggl_token   = nil
     end
 
     def default_config_path
