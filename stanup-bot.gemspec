@@ -18,4 +18,5 @@ Gem::Specification.new do |s|
   s.version       = StandupBot::VERSION
 
   s.add_development_dependency 'awesome_print'
+  s.add_dependency 'hipchat'
 end
